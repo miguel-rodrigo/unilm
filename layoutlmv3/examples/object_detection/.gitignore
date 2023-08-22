@@ -1,0 +1,4 @@
+# Data, input, outputs...
+data/
+output/
+*finetuned*/
