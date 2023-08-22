@@ -1,0 +1,11 @@
+- Testear input/output del modelo pre-entrenado
+  - Probar con imágenes del publaynet reales
+  - Crear settings y anotaciones para mis ejemplos con el formato real
+  - Testear sin re-entrenar
+
+- Entrenar el modelo
+  - Transformar anotaciones al formato necesario (COCO?)
+  - Crear settings para mi caso
+
+- Testear el modelo re-entrenado
+- Si da tiempo, mostrar UN ÚNICO ejemplo de como se tomaría el output y se crearía una regla para ver si la cumple

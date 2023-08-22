@@ -1,0 +1,7 @@
+Train: 
+python train_net.py --config-file cascade_layoutlmv3.yaml \
+  MODEL_WEIGHTS /path/to/pytorch_model.bin_or.pth
+  OUTPUT_DIR /path/to/finetuned
+
+Test:
+python train_net.py --config-file cascade_layoutlmv3.yaml --eval-only
