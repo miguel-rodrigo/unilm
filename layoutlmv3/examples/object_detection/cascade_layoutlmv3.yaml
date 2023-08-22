@@ -4,7 +4,7 @@ MODEL:
   META_ARCHITECTURE: "VLGeneralizedRCNN"
   PIXEL_MEAN: [ 127.5, 127.5, 127.5 ]
   PIXEL_STD: [ 127.5, 127.5, 127.5 ]
-  WEIGHTS: "/path/to/models/layoutlmv3/pts/layoutlmv3-base/pytorch_model.bin"
+  WEIGHTS: "./layoutlmv3-base-finetuned-publaynet/model_final.pth"
   BACKBONE:
     NAME: "build_vit_fpn_backbone"
   VIT:
@@ -77,7 +77,7 @@ VERSION: 2
 AUG:
   DETR: True
 SEED: 42
-OUTPUT_DIR: "/path/to/models/layoutlmv3/fts/publaynet-base/"
+OUTPUT_DIR: "./output"
 PUBLAYNET_DATA_DIR_TRAIN: "/path/to/data/PubLayNet/publaynet/train"
-PUBLAYNET_DATA_DIR_TEST: "/path/to/data/PubLayNet/publaynet/val"
+PUBLAYNET_DATA_DIR_TEST: "./data/val"
 CACHE_DIR: "/path/to/cache/huggingface"
