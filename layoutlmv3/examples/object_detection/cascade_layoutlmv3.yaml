@@ -79,5 +79,5 @@ AUG:
 SEED: 42
 OUTPUT_DIR: "./output"
 PUBLAYNET_DATA_DIR_TRAIN: "/path/to/data/PubLayNet/publaynet/train"
-PUBLAYNET_DATA_DIR_TEST: "./data/val"
+PUBLAYNET_DATA_DIR_TEST: "./data/publaynet-mini-sample/val"
 CACHE_DIR: "/path/to/cache/huggingface"

@@ -4,4 +4,8 @@ python train_net.py --config-file cascade_layoutlmv3.yaml \
   OUTPUT_DIR /path/to/finetuned
 
 Test:
-python train_net.py --config-file cascade_layoutlmv3.yaml --eval-only
+python3 train_net.py --config-file cascade_layoutlmv3.yaml --eval-only
+
+
+Test with torch:
+python3 -m torch.distributed.launch...

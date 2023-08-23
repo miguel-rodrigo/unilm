@@ -9,3 +9,10 @@
 
 - Testear el modelo re-entrenado
 - Si da tiempo, mostrar UN ÚNICO ejemplo de como se tomaría el output y se crearía una regla para ver si la cumple
+
+
+CURRENT:
+1. Debuggear resultados sobre el propio publaynet y eliminar los malos bboxes
+  1. Cambiar los colores de cada bbox ploteado según categoría?
+  2. Ponerle el índice somehow? Dibujarlos en lotes de 3-4 con distinto color?
+2. Una vez debugueado, correr el modelo con las imágens de documentos de seguros pre-generadas, e intentar extraer coordenadas de elementos.
